@@ -1,0 +1,78 @@
+><!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    width:350px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:25px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#4facfe;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#0077ff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Welcome</h1>
+<p>Please enter your details</p>
+
+<form action="register" method="post">
+
+<input type="text" name="name" placeholder="Enter your Name" required>
+
+<input type="tel" name="contact" placeholder="Enter your Contact Number" required>
+
+<input type="email" name="email" placeholder="Enter your Email ID" required>
+
+<button type="submit">Continue</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
